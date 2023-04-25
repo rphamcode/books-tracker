@@ -17,6 +17,8 @@
 		5AB6DF6529F862C600358D1F /* books_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB6DF6429F862C600358D1F /* books_trackerUITests.swift */; };
 		5AB6DF6729F862C600358D1F /* books_trackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB6DF6629F862C600358D1F /* books_trackerUITestsLaunchTests.swift */; };
 		5AB6DF7729F8666A00358D1F /* BooksTrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB6DF7629F8666A00358D1F /* BooksTrackerModel.swift */; };
+		5AB6DF7929F873BF00358D1F /* AddNewBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB6DF7829F873BF00358D1F /* AddNewBookView.swift */; };
+		5AB6DF7B29F8763600358D1F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB6DF7A29F8763600358D1F /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		5AB6DF6429F862C600358D1F /* books_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = books_trackerUITests.swift; sourceTree = "<group>"; };
 		5AB6DF6629F862C600358D1F /* books_trackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = books_trackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5AB6DF7629F8666A00358D1F /* BooksTrackerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTrackerModel.swift; sourceTree = "<group>"; };
+		5AB6DF7829F873BF00358D1F /* AddNewBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBookView.swift; sourceTree = "<group>"; };
+		5AB6DF7A29F8763600358D1F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,8 @@
 		5AB6DF7429F8646C00358D1F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5AB6DF7829F873BF00358D1F /* AddNewBookView.swift */,
+				5AB6DF7A29F8763600358D1F /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -291,7 +297,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AB6DF7729F8666A00358D1F /* BooksTrackerModel.swift in Sources */,
+				5AB6DF7B29F8763600358D1F /* HomeView.swift in Sources */,
 				5AB6DF4E29F862C600358D1F /* Persistence.swift in Sources */,
+				5AB6DF7929F873BF00358D1F /* AddNewBookView.swift in Sources */,
 				5AB6DF4729F862C400358D1F /* ContentView.swift in Sources */,
 				5AB6DF4529F862C400358D1F /* BookTrackerApp.swift in Sources */,
 				5AB6DF5129F862C600358D1F /* books_tracker.xcdatamodeld in Sources */,
